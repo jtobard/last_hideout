@@ -1,5 +1,7 @@
-Ambientación
-El Velo se rasgó. Desde la brecha surgieron ellos: los Silentes, demonios ciegos con un oído sobrenatural, que cazan cualquier cosa que perturbe el silencio eterno que anhelan. El mundo que conocíamos ya no existe. Ahora, solo hay ruinas, ecos y el terror a hacer el más mínimo ruido. Sois un pequeño grupo de sobrevivientes. Vuestro objetivo no es luchar, es sobrevivir. Moverse entre refugios, buscar lo necesario para seguir un día más y, sobre todo, no hacer ruido. Porque ellos siempre están escuchando.
+# Ambientación
+
+El Velo se rasgó. 
+Desde la brecha surgieron ellos: los Silentes, demonios ciegos con un oído sobrenatural, que cazan cualquier cosa que perturbe el silencio eterno que anhelan. El mundo que conocíamos ya no existe. Ahora, solo hay ruinas, ecos y el terror a hacer el más mínimo ruido. Sois un pequeño grupo de sobrevivientes. Vuestro objetivo no es luchar, es sobrevivir. Moverse entre refugios, buscar lo necesario para seguir un día más y, sobre todo, no hacer ruido. Porque ellos siempre están escuchando.
 Objetivo del Juego
 Los jugadores (el Grupo) ganan si logran sobrevivir hasta que el Mazo de Caza se agote. Pierden inmediatamente si el Medidor de Ruido llega a su límite máximo.
 Componentes
@@ -20,7 +22,9 @@ Estado Inicial:
 Cada jugador roba una mano inicial de 5 cartas del Mazo de Caza.
 El Medidor de Ruido empieza en 0.
 Los jugadores colocan sus fichas en cualquier Refugio del mapa.
-Desarrollo de la Partida
+
+# Desarrollo de la Partida
+
 La partida se juega en rondas, cada una dividida en cuatro fases:
 Fase 1: Los Sobrevivientes Empezando por un jugador y luego el otro, cada uno debe realizar una de las siguientes acciones. Deben coordinarse, ya que sus vidas dependen de ello.
 Moverse y Ocultarse: Mueve tu ficha a un Refugio adyacente (no en diagonal). Luego, juega una carta de tu mano sobre ese Refugio. El palo de la carta debe coincidir con el palo del Refugio. El valor de esta carta es tu Nivel de Silencio. (Valores: 4-10, Paje=11, Caballero=12, Reina=13, Rey=14).
@@ -39,7 +43,9 @@ Si tu Silencio ≤ Percepción: ¡Hiciste ruido!
 Consecuencia: Suma la diferencia entre la Percepción y tu Silencio al Medidor de Ruido. (Ej: Percepción 9, tu Silencio 7. Sumas 2 puntos de Ruido).
 Pérdida: La carta que usaste para ocultarte se descarta de la partida.
 Final de la Ronda: Los jugadores que no fueron cazados o que tuvieron éxito recogen su carta de Silencio. Todos roban del Mazo de Caza hasta tener 5 cartas en la mano. Comienza una nueva ronda.
-Glosario de Presagios (Arcanos Mayores)
+
+# Listado de Presagios (Arcanos Mayores)
+
 0. El Loco - Paso en Falso: El jugador con la mano más grande tropieza. Aumenta el Ruido en 1.
 I. El Mago - Ingenio: Los jugadores pueden intercambiar entre ellos cualquier número de cartas de Provisiones.
 II. La Sacerdotisa - Secreto: El próximo Presagio que sea revelado se ignora por completo.
@@ -62,6 +68,25 @@ XVIII. La Luna - Confusión y Pavor: Todas las cartas jugadas para Silencio esta
 XIX. El Sol - Amanecer Rojo: La caza de esta ronda afecta a TODAS las zonas del mapa. No hay dónde esconderse.
 XX. El Juicio - La Llamada Final: Cuenten las cartas que quedan en el Mazo de Caza. Si son 10 o menos, reduzcan el Ruido a la mitad. Si son más, súmenle 3.
 XXI. El Mundo - Sobrevivir un Día Más: Si este es el último Arcano Mayor en ser revelado, los jugadores ganan la partida inmediatamente.
-Final de la Partida
+
+# Listado de Provisiones
+Palo de Bastos (Herramientas de las Ruinas Industriales)
+As de Bastos - "Herramientas Multiuso": Descarta esta carta para ignorar el requisito de palo al usar la acción "Moverse y Ocultarse". Puedes esconderte en un Refugio de Copas usando una carta de Espadas de tu mano, por ejemplo.
+2 de Bastos - "Barrera Improvisada": Juega esta carta sobre cualquier Refugio del mapa. Durante esta ronda, cualquier jugador que se oculte en ese Refugio específico obtiene un +3 a su Nivel de Silencio.
+3 de Bastos - "Lanzar Chatarra": Descarta esta carta justo después de que se revele la carta del Mazo de Caza. Anula esa carta por completo, obligando al Vigilante a descartarla y robar una nueva para determinar la caza de esta ronda.
+Palo de Copas (Suministros de las Zonas Residenciales)
+As de Copas - "Agua Potable": Descarta esta carta en cualquier momento para calmar los nervios y borrar vuestro rastro. Reduce el Medidor de Ruido en 2 puntos.
+2 de Copas - "Botiquín de Primeros Auxilios": Juega esta carta sobre otro jugador. Ese jugador puede robar 2 cartas del Mazo de Caza y luego descartar 1 carta de su elección de su mano. Ideal para ayudar a un compañero con una mala mano.
+3 de Copas - "Raciones Compartidas": Descarta esta carta para permitir que ambos jugadores se muestren sus manos y discutan su estrategia abiertamente. La planificación es clave para sobrevivir.
+Palo de Espadas (Equipo de la Infraestructura Colapsada)
+As de Espadas - "Daga Afilada": Descarta esta carta durante la Fase de Resolución, justo antes de comparar los niveles. Añade +4 a tu Nivel de Silencio para esa comparación. Es tu as bajo la manga contra una búsqueda intensa.
+2 de Espadas - "Cuerda y Gancho": Descarta esta carta en tu turno para usar una versión mejorada de "Moverse y Ocultarse". Puedes moverte a cualquier Refugio del mapa, ignorando la regla de adyacencia.
+3 de Espadas - "Espejo Roto": Juega esta carta sobre un Refugio. Si el Vigilante va a cazar en la zona de ese Refugio, la caza se desvía a una zona adyacente de tu elección. (Ej: Si la caza es en Espadas, puedes desviarla a Copas si hay un Refugio de Copas adyacente a tu espejo).
+Palo de Oros (Tesoros de Sótanos y Alcantarillas)
+As de Oros - "Comida Enlatada": Descarta esta carta para recuperar energías. Te permite buscar en tu pila personal de descarte y recuperar una carta de tu elección para añadirla a tu mano.
+2 de Oros - "Mapa Desgastado": El conocimiento es poder. Descarta esta carta para mirar en secreto las 2 primeras cartas del Mazo de Presagios (Arcanos Mayores). Vuelve a ponerlas en la cima en el orden que prefieras.
+3 de Oros - "Amuleto de la Suerte": Puedes descartar esta carta justo después de fallar en una Resolución. Anula por completo el Ruido que ibas a generar en esa ocasión. Es una segunda oportunidad vital.
+
+# Final de la Partida
 Victoria: Se agotan las 44 cartas del Mazo de Caza. Han sobrevivido a la horda.
 Derrota: El Medidor de Ruido llega a 15. El estruendo acumulado atrae a una horda incontable de Silentes. No hay escapatoria.
